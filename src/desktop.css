@@ -1,0 +1,48 @@
+:root {
+    --font:2.4rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: center;
+    max-width: 1440px;
+    background-position: 0% 100%;
+    background-size: auto;
+    
+}
+
+.card-container {
+    width: 100%;
+    background-size: 50rem;
+    padding-right: 10rem;
+    margin-left: -10rem;
+}
+
+.cards-container-fix {
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.card-details {
+    background-position: 20% 0%;
+    padding-top: 7rem;
+}
+
+.details-text {
+    text-align: left;
+}
+
+.details-name {
+    text-align: left;
+}
+.details-spec {
+    text-align: left;
+}
+
+.next-menu {
+    right: 4rem;
+}
